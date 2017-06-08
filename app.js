@@ -94,7 +94,9 @@ var userAnswer6 = parseInt(prompt('Can you guess my lucky number?'));
     attempts = 3;
     alert('Sorry! You ran out of guesses. My lucky number was 19.');
   }
+    console.log('User answers to question 6 are ' + userAnswer6 );  
 }
+
  var countries = ['Singapore', 'Ireland', 'Afghanistan'];
   var attemptsLeft = 5;
   while (attemptsLeft > 0) {
@@ -116,5 +118,6 @@ var userAnswer6 = parseInt(prompt('Can you guess my lucky number?'));
           attemptsLeft--;
           userAnswer7;
       }
+      console.log('User answers to question 7 are ' + userAnswer7 );
     }
     {alert('User got ' + rightAnswers + ' out of 7 correct!');}
