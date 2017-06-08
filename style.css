@@ -6,3 +6,9 @@ h1 {
   color:Orange;
   font-family:sans-serif;
 }
+#list {
+  color: #ccc;
+  font-size: 20px
+  border: dashed 1px blue;
+  font-family: fantasy;
+}
